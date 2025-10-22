@@ -34,36 +34,42 @@ export const skills = [
 export const projects = [
   {
     name: "Portfolio-Website",
+    url: "https://github.com/kamal126/Portfolio-Web",
     img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NTg0MjU5NjM&ixlib=rb-1.2.1&q=80&w=400",
     desc: "Developed a personal portfolio website to showcase projects and skills, utilizing HTML, CSS, and JavaScript for a responsive and interactive user experience.",
     tag: ["HTML", "CSS", "JavaScript"],
   },
   {
     name: "CareerBridge FullStack Web App",
+    url: "https://github.com/kamal126/CareerBridge",
     img: "/assets/project3.png",
     desc: "Built a responsive mentorship platform for Delhi NCR students, enabling 1,000+ doubt-resolution sessions and reducing admission-related queries by 80–90%, with secure authentication and MongoDB-backed data management.",
     tag: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
   },
   {
     name: "Placement Package Prediction System",
+    url: "https://github.com/kamal126/placement-package-predictor",
     img: "/assets/project1.png",
     desc: "Developed a machine learning model to predict placement packages for students based on their resumes on Streamlit.",
     tag: ["Python", "Pandas", "scikit-learn", "Streamlit"],
   },
   {
     name: "Resume Categorization Prediction System",
+    url: "https://github.com/kamal126/ResumeScreening",
     img: "/assets/resume.jpg",
     desc: "Created a resume categorization system using NLP techniques to classify resumes into different job roles, improving recruitment efficiency by 40%.",
     tag: ["Python", "NLP", "scikit-learn"],
   },
   {
     name: "Twitter Sentiment Analysis",
+    url : "https://github.com/kamal126/Twitter-Sentiment-Analysis-Using-ML",
     img: "/assets/twitter.jpg",
     desc: "Developed a sentiment analysis tool for Twitter data using NLP techniques, achieving 85% accuracy in classifying tweets as positive, negative, or neutral.",
     tag: ["Python", "NLP", "scikit-learn"],
   },
   {
     name: "Safe Travelling Android App",
+    url: "https://github.com/kamal126/TravelBuddy-TravelSecurityApp",
     img: "/assets/safeTravel.jpeg",
     desc: "Developed a mobile application to ensure safe travel for users, incorporating real-time location tracking and emergency response features.",
     tag: ["Java", "Android", "Firebase"],
