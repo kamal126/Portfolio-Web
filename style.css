@@ -248,10 +248,10 @@ nav a:hover {
 .edtech {
   position: relative;
   margin-top: 20px;
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
   padding: 20px;
-  border-radius: 12px;
-  border: 1px solid #3a3a3a;
+  /* border-radius: 12px; */
+  /* border: 1px solid #3a3a3a; */
 }
 .year {
   font-size: 0.9rem;
