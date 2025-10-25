@@ -522,7 +522,26 @@ form{
 
 
 
-/* more images */
+/* visiter count */
+.visitor-counter,
+.public-counter {
+  text-align: center;
+  margin-top: 40px;
+  color: #ffbf00;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.public-counter img {
+  margin-top: 8px;
+  filter: brightness(1.2);
+  transition: transform 0.3s ease;
+}
+
+.public-counter img:hover {
+  transform: scale(1.1);
+}
+
 
 
 @media screen and (max-width: 750px) {

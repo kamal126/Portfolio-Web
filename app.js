@@ -170,4 +170,16 @@ form.addEventListener("submit", async (e) => {
 
 
 
-// more image 
+// visited count
+// Visitor Counter using LocalStorage + Approx Public Counter Effect
+let visitCount = localStorage.getItem("visitCount");
+
+if (visitCount) {
+  visitCount = Number(visitCount) + 1;
+  localStorage.setItem("visitCount", visitCount);
+} else {
+  visitCount = 1;
+  localStorage.setItem("visitCount", visitCount);
+}
+
+document.getElementById("visitorCount").innerText = visitCount;
